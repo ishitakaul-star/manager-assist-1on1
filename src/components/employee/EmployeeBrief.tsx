@@ -48,7 +48,7 @@ export function EmployeeBrief({ employee }: EmployeeBriefProps) {
 
         {/* Right column: Agenda + talking points */}
         <div className="space-y-4">
-          <AgendaBuilder employeeId={employee.id} viewMode="employee" employeeName="Ray" />
+          <AgendaBuilder employeeId={employee.id} viewMode="employee" employeeName="Jordan" />
           <TalkingPoints points={insights.employeeTalkingPoints} viewMode="employee" />
         </div>
       </div>

@@ -39,7 +39,7 @@ export function EmployeeView() {
                   </div>
                   <div className="flex items-center gap-1.5 text-xs text-text-muted">
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><rect x="1.5" y="2" width="9" height="8" rx="1" stroke="currentColor" strokeWidth="1"/><path d="M1.5 4.5h9M4 1v2M8 1v2" stroke="currentColor" strokeWidth="1" strokeLinecap="round"/></svg>
-                    <span>1:1 with Ray: {next11}</span>
+                    <span>1:1 with Jordan: {next11}</span>
                   </div>
                 </button>
               );

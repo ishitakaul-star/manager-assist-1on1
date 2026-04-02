@@ -46,10 +46,10 @@ const goalsData: Record<string, EmployeeGoalsData> = {
         type: 'personal_development',
         quarter: 'FY26 Q3',
         lastUpdated: '2026-03-20',
-        managerNotes: 'Sarah has been strong on code reviews but hasn\'t had time for the design doc due to incident load.',
+        managerNotes: 'Alex has been strong on code reviews but hasn\'t had time for the design doc due to incident load.',
         keyResults: [
           { id: 'kr-6', title: 'Author 2 design docs for platform improvements', progress: 25, target: '2 design docs', current: '0 completed (1 drafted but paused)' },
-          { id: 'kr-7', title: 'Mentor 1 junior engineer through a full feature delivery', progress: 80, target: '1 mentee through feature delivery', current: 'Marcus completing preferences API with Sarah\'s guidance' },
+          { id: 'kr-7', title: 'Mentor 1 junior engineer through a full feature delivery', progress: 80, target: '1 mentee through feature delivery', current: 'Blake completing preferences API with Alex\'s guidance' },
           { id: 'kr-8', title: 'Lead 3 architecture review sessions', progress: 66, target: '3 sessions led', current: '2 sessions completed' },
         ],
       },
@@ -59,11 +59,11 @@ const goalsData: Record<string, EmployeeGoalsData> = {
       employeeId: 'emp-001',
       date: '2026-03-19',
       sentiment: 'positive',
-      summary: 'Feeling good about the v3 migration progress. On-call load has been heavier than expected, which pushed back the observability dashboard work. Enjoying mentoring Marcus.',
+      summary: 'Feeling good about the v3 migration progress. On-call load has been heavier than expected, which pushed back the observability dashboard work. Enjoying mentoring Blake.',
       goalUpdates: [
         { goalId: 'g-sc-1', note: 'Checkout flow migration complete, refunds next. On track for end of sprint.' },
         { goalId: 'g-sc-2', note: 'Dashboard work slowed due to on-call. Will catch up next sprint.' },
-        { goalId: 'g-sc-3', note: 'Design doc paused, but mentoring Marcus is going well. Need to schedule arch review #3.' },
+        { goalId: 'g-sc-3', note: 'Design doc paused, but mentoring Blake is going well. Need to schedule arch review #3.' },
       ],
     },
   },
@@ -88,7 +88,7 @@ const goalsData: Record<string, EmployeeGoalsData> = {
           { id: 'kr-10', title: '95% test coverage for preferences module', progress: 30, target: '95% coverage', current: '~60% coverage, blocked on auth middleware tests' },
           { id: 'kr-11', title: 'API docs published in developer portal', progress: 0, target: 'Published docs', current: 'Not started (depends on API finalization)' },
         ],
-        managerNotes: 'Marcus is close but the auth middleware blocker is slowing things down. May need to help unblock.',
+        managerNotes: 'Blake is close but the auth middleware blocker is slowing things down. May need to help unblock.',
       },
       {
         id: 'g-mj-2',
@@ -116,7 +116,7 @@ const goalsData: Record<string, EmployeeGoalsData> = {
         keyResults: [
           { id: 'kr-14', title: 'Deliver 2 tech talks or brown bags', progress: 0, target: '2 presentations', current: 'Not started' },
         ],
-        managerNotes: 'Marcus mentioned interest in presenting on OpenAPI spec patterns. Should encourage this.',
+        managerNotes: 'Blake mentioned interest in presenting on OpenAPI spec patterns. Should encourage this.',
       },
     ],
     recentCheckIn: {
@@ -127,7 +127,7 @@ const goalsData: Record<string, EmployeeGoalsData> = {
       summary: 'Making progress on the preferences API but feeling stuck on the auth middleware dependency. Would like to discuss prioritization of the knowledge sharing goal, since I have not had bandwidth for tech talks yet.',
       goalUpdates: [
         { goalId: 'g-mj-1', note: 'PR is up, got feedback. Need to address changes and figure out the auth middleware blocker.' },
-        { goalId: 'g-mj-2', note: 'Did the code walkthrough with Sarah. Learning a lot but still need to write it up.' },
+        { goalId: 'g-mj-2', note: 'Did the code walkthrough with Alex. Learning a lot but still need to write it up.' },
         { goalId: 'g-mj-3', note: 'Haven\'t started. Thinking about doing one on OpenAPI patterns if I can find time.' },
       ],
     },
@@ -163,7 +163,7 @@ const goalsData: Record<string, EmployeeGoalsData> = {
         type: 'business',
         quarter: 'FY26 Q3',
         lastUpdated: '2026-04-02',
-        managerNotes: 'ITAD is competing with active incident work. May need to adjust the timeline or get Priya support on incidents.',
+        managerNotes: 'ITAD is competing with active incident work. May need to adjust the timeline or get Casey support on incidents.',
         keyResults: [
           { id: 'kr-18', title: 'ITAD document reviewed and approved', progress: 40, target: 'Approved ITAD', current: 'Draft in progress, due April 7' },
           { id: 'kr-19', title: 'Cross-team alignment sessions completed', progress: 66, target: '3 alignment sessions', current: '2 sessions done (infra team + SRE)' },
@@ -248,7 +248,7 @@ const goalsData: Record<string, EmployeeGoalsData> = {
           { id: 'kr-28', title: 'E2E test suite for report generation pipeline', progress: 0, target: 'E2E suite running in CI', current: 'Not started (PLAT-1263 in backlog)' },
           { id: 'kr-29', title: 'Increase unit test coverage to 80%', progress: 55, target: '80% coverage', current: '~62% coverage (up from 45%)' },
         ],
-        managerNotes: 'David has been focused on features. Need to carve out dedicated time for test coverage.',
+        managerNotes: 'Drew has been focused on features. Need to carve out dedicated time for test coverage.',
       },
       {
         id: 'g-dk-3',
@@ -274,7 +274,7 @@ const goalsData: Record<string, EmployeeGoalsData> = {
       summary: 'Happy with the CSV export launch. Pagination is close. Want to talk about prioritization: E2E tests keep getting bumped for features. Also interested in taking on the DB migration planning, it connects to my growth goal.',
       goalUpdates: [
         { goalId: 'g-dk-1', note: 'CSV is live! Pagination PR should be ready this week.' },
-        { goalId: 'g-dk-2', note: 'Haven\'t started E2E tests yet. Need to discuss priority with Ray.' },
+        { goalId: 'g-dk-2', note: 'Haven\'t started E2E tests yet. Need to discuss priority with Jordan.' },
         { goalId: 'g-dk-3', note: 'Course is going well. Fixed the timezone query, which was a good learning experience.' },
       ],
     },

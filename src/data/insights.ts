@@ -19,7 +19,7 @@ const insights: Record<string, EmployeeInsights> = {
     ],
     managerTalkingPoints: [
       'Recognize the payment gateway migration completion and its impact on platform reliability',
-      'Check in on the critical checkout race condition: does Sarah need additional support?',
+      'Check in on the critical checkout race condition: does Alex need additional support?',
       'Discuss on-call load and after-hours work patterns. Are there signs of fatigue?',
       'Talk about the code review load: is 7 reviews sustainable alongside development?',
     ],
@@ -47,7 +47,7 @@ const insights: Record<string, EmployeeInsights> = {
     managerTalkingPoints: [
       'Recognize the profile update fix and its downstream impact',
       'Discuss the blocked auth middleware ticket: can we help escalate the API dependency?',
-      'Check in on the preferences API feature: this is Marcus\'s first solo feature, how is it going?',
+      'Check in on the preferences API feature: this is Blake\'s first solo feature, how is it going?',
       'Explore onboarding experience 6 months in. What support would be most helpful?',
     ],
     employeeTalkingPoints: [
@@ -78,7 +78,7 @@ const insights: Record<string, EmployeeInsights> = {
     ],
     managerTalkingPoints: [
       'Recognize the massive notification system delivery and its architectural significance',
-      'Urgent: discuss the sustained incident load (2 open incidents + high PagerDuty volume). Is Priya at risk of burnout?',
+      'Urgent: discuss the sustained incident load (2 open incidents + high PagerDuty volume). Is Casey at risk of burnout?',
       'Talk about meeting load: 11 meetings this week. Can any be delegated or reduced?',
       'Discuss ITAD timeline vs incident load: does the deadline need to shift?',
       'Acknowledge the tech talk contribution and explore further leadership opportunities',
@@ -108,7 +108,7 @@ const insights: Record<string, EmployeeInsights> = {
     ],
     managerTalkingPoints: [
       'Recognize the CSV export delivery and its impact on customer satisfaction',
-      'Discuss the timezone bug fix and David\'s growing expertise in the reporting domain',
+      'Discuss the timezone bug fix and Drew\'s growing expertise in the reporting domain',
       'Check in on upcoming work: E2E tests and DB driver upgrade both need to start soon',
       'Explore interest in taking on more complex reporting features or expanding scope',
     ],
