@@ -126,3 +126,44 @@ export interface InvisibleWorkPrompt {
   managerPrompt: string;
   employeePrompt: string;
 }
+
+// BetterWorks Goals Integration
+export interface BetterWorksGoal {
+  id: string;
+  title: string;
+  description: string;
+  progress: number; // 0-100
+  status: 'On Track' | 'At Risk' | 'Behind' | 'Completed';
+  type: 'business' | 'personal_development';
+  quarter: string;
+  keyResults: BetterWorksKeyResult[];
+  lastUpdated: string;
+  managerNotes?: string;
+}
+
+export interface BetterWorksKeyResult {
+  id: string;
+  title: string;
+  progress: number; // 0-100
+  target: string;
+  current: string;
+}
+
+export interface BetterWorksCheckIn {
+  id: string;
+  employeeId: string;
+  date: string;
+  sentiment: 'positive' | 'neutral' | 'concerned';
+  summary: string;
+  goalUpdates: { goalId: string; note: string }[];
+}
+
+export interface EmployeeGoalsData {
+  employeeId: string;
+  goals: BetterWorksGoal[];
+  recentCheckIn: BetterWorksCheckIn | null;
+  overallProgress: number;
+  goalsOnTrack: number;
+  goalsAtRisk: number;
+  goalsBehind: number;
+}

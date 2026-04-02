@@ -8,6 +8,7 @@ import { RisksAndFlags } from '../shared/RisksAndFlags';
 import { OpenLoops } from '../shared/OpenLoops';
 import { InvisibleWork } from '../shared/InvisibleWork';
 import { TalkingPoints } from '../shared/TalkingPoints';
+import { GoalsProgress } from '../shared/GoalsProgress';
 import { AgendaBuilder } from '../shared/AgendaBuilder';
 
 interface EmployeeBriefProps {
@@ -39,6 +40,7 @@ export function EmployeeBrief({ employee }: EmployeeBriefProps) {
           <WorkloadSnapshot employeeId={employee.id} />
           <TimeDistribution employeeId={employee.id} />
           <RecentWins wins={insights.recentWins} viewMode="employee" employeeName={employee.name.split(' ')[0]} />
+          <GoalsProgress employeeId={employee.id} viewMode="employee" employeeName={employee.name.split(' ')[0]} />
           <RisksAndFlags risks={insights.risks} />
           <OpenLoops loops={insights.openLoops} />
           <InvisibleWork viewMode="employee" />
