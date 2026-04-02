@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/manager-assist-1on1/',
+  base: '/pages/ikaul/manager-assist-1on1/',
   plugins: [
     react(),
     tailwindcss(),
