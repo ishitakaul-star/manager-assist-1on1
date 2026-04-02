@@ -15,11 +15,7 @@ concurrency:
 
 jobs:
   validation:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Validate
-        run: echo "Validation passed"
+    uses: actions-intuit/ibp-wf/.github/workflows/validation.yml@v1
 
   build:
     needs: validation
